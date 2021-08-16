@@ -16,7 +16,8 @@ int main() {
         cin >> m[i];
     }
 
-    isort(m,s);
+    //isort(m,s);
+    ssort(m,s);
 
     for (short i = 0;i < s;i++) {
         cout << m[i] << " ";
